@@ -59,7 +59,6 @@ answer_submitted = st.session_state.answer_submitted
 #タイトル表示
 st.title('Nihongo Kotoba Quiz - Version Prototype')
 
-st.markdown(f'##### Retrouvez le mot manquant')
 def end_quiz():
     st.session_state.quiz_ended = True
 
@@ -87,6 +86,7 @@ else:
     if current_quiz is not None:
         question, options, correct_answer, note = current_quiz
         st.markdown(f'#### Nombre de questions restantes : {remaining_quiz}')
+        st.markdown(f'##### Retrouvez le mot manquant')
         st.markdown(f'### {question}')
         user_answer = st.radio('',options, key='quiz_radio')
 
