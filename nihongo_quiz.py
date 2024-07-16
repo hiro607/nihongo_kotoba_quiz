@@ -19,7 +19,7 @@ def load_quiz_data(filename):
 
 #クイズを生成する関数
 def get_random_quiz(quiz_data, used_questions):
-    if quiz_date is None:
+    if quiz_data is None:
         return None
     available_quizzes = [quiz for quiz in quiz_data if quiz[1] not in used_questions]
     if not available_quizzes:
