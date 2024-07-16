@@ -5,7 +5,7 @@ import os
 
 #csvの読み込み ヘッダーを除いて問題と解答、注記をリストに格納
 
-FILENAME = r'c:\Users\Fumihiro\My_app\nihongo_quiz\quiz.csv'
+FILENAME = 'quiz.csv'
 
 #クイズデータをcsvからダウンロード
 def load_quiz_data(filename):
