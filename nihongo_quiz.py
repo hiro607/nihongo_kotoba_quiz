@@ -34,7 +34,7 @@ def get_random_quiz(quiz_data, used_questions):
 
 #セッション情報の初期化
 if 'remaining_quiz' not in st.session_state:
-    st.session_state.remaining_quiz = 10
+    st.session_state.remaining_quiz = 15
     st.session_state.score = 0
     st.session_state.incorrect_answers = []
     st.session_state.quiz_data = load_quiz_data(FILENAME)
