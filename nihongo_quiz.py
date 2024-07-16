@@ -57,7 +57,7 @@ answer_submitted = st.session_state.answer_submitted
 
 
 #タイトル表示
-st.title('Nihongo Kotoba Quiz')
+st.title('Nihongo Kotoba Quiz - Version Prototype')
 
 def end_quiz():
     st.session_state.quiz_ended = True
