@@ -86,7 +86,7 @@ else:
     if current_quiz is not None:
         question, options, correct_answer, note = current_quiz
         st.markdown(f'#### Nombre de questions restantes : {remaining_quiz}')
-        st.markdown(f'#### [Question]Retrouvez le mot manquant')
+        st.markdown(f'#### [Question] Retrouvez le mot manquant')
         st.markdown(f'### {question}')
         user_answer = st.radio('',options, key='quiz_radio')
 
